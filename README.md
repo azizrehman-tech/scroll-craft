@@ -122,7 +122,7 @@ The ten-site rebuild documented here was built with Codex.
 ### Claude Code plugin
 
 ```bash
-/plugin marketplace add scroll-craft
+/plugin marketplace add azizrehman-tech/scroll-craft
 ```
 ```bash
 /plugin install scroll-craft

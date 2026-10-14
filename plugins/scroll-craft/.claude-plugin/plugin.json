@@ -3,9 +3,9 @@
   "description": "Design and build skills for scroll-craft: premium scroll-driven interactive landing pages, built on a full design floor (typography, spacing, colour, depth, motion, accessibility) rather than on an animation library.",
   "version": "0.3.1",
   "author": {
-    "name": "ScrollCraft"
+    "name": "Aziz ur Rehman"
   },
-  "homepage": "https://github.com/scroll-craft",
-  "repository": "https://github.com/scroll-craft",
+  "homepage": "https://github.com/azizrehman-tech/scroll-craft",
+  "repository": "https://github.com/azizrehman-tech/scroll-craft",
   "license": "MIT"
 }

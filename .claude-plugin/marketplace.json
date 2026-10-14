@@ -2,8 +2,8 @@
   "name": "scroll-craft",
   "description": "Design and build premium scroll-driven websites with real design standards.",
   "owner": {
-    "name": "ScrollCraft",
-    "url": "https://github.com/scroll-craft"
+    "name": "Aziz ur Rehman",
+    "url": "https://github.com/azizrehman-tech"
   },
   "plugins": [
     {
@@ -12,7 +12,7 @@
       "description": "scroll-craft: build a premium, scroll-driven interactive landing page. Scroll becomes the timeline, and the page verifies its own contrast, motion and accessibility by screenshotting itself.",
       "version": "0.3.1",
       "author": {
-        "name": "ScrollCraft"
+        "name": "Aziz ur Rehman"
       },
       "license": "MIT"
     }
