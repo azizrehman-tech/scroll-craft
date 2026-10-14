@@ -10,7 +10,7 @@ Code plugin for convenient installation.
 Most AI website output fails in one of two directions. It is either well behaved and forgettable, or it is a flashy scroll animation with 2.1:1 body text, a headline that wraps to six lines on a phone, and the same six sections every other AI page has. scroll-craft is built to fail neither way: it treats **interaction** and **craft** as one job rather than two.
 
 [![MIT](https://img.shields.io/badge/licence-MIT-blue.svg)](LICENSE)
-[![Agent skill](https://img.shields.io/badge/agent-skill-3b82f6.svg)](plugins/nateherk-design/skills/scroll-craft/SKILL.md)
+[![Agent skill](https://img.shields.io/badge/agent-skill-3b82f6.svg)](plugins/scroll-craft/skills/scroll-craft/SKILL.md)
 [![Claude Code plugin](https://img.shields.io/badge/Claude%20Code-plugin-d97757.svg)](https://code.claude.com/docs/en/plugins)
 
 ---
@@ -35,8 +35,8 @@ https://github.com/user-attachments/assets/d193073b-5af9-45de-93ae-95bf7c6934d5
 - Art-direct phones separately and verify actual scroll frames, fallbacks, and packages.
 - Honor explicit creative delegation without forcing a redundant interview.
 
-Read the [worked examples and production workflow](plugins/nateherk-design/skills/scroll-craft/references/approved-collection.md)
-and the [hero-depth guide](plugins/nateherk-design/skills/scroll-craft/references/hero-depth.md).
+Read the [worked examples and production workflow](plugins/scroll-craft/skills/scroll-craft/references/approved-collection.md)
+and the [hero-depth guide](plugins/scroll-craft/skills/scroll-craft/references/hero-depth.md).
 These examples describe design behavior; client assets and private form data are
 not bundled. The existing engine and video compatibility fixes are preserved.
 
@@ -49,10 +49,10 @@ A dark editorial landing for a 450,000-member community. One stat carries the wh
 
 ![AI Automation Society, a dark editorial community landing](media/ais.webp)
 
-### [Nate Herk](https://www.nateherk.com) · a creator portfolio
+### [CRAFT Studio](https://scrollcraft.dev) · a creator portfolio
 High-key and bright, the opposite of the first. A lit-glass hero with the numbers up front, a portrait held in the light, and two clear next steps instead of a wall of links.
 
-![Nate Herk, a high-key lit-glass creator portfolio](media/nateherk.webp)
+![CRAFT Studio, a high-key lit-glass creator portfolio](media/creator.jpg)
 
 ### PERKFORM · a protein coffee
 A filmic one-shot that hard-cuts to two full-bleed inverted grounds mid-page. Loud, product-forward, and the only one of the three that raises its voice.
@@ -99,7 +99,7 @@ Then it writes a contact sheet, because a machine can prove a page works and can
 ### Codex and other coding agents
 
 Clone or download this repository. The complete skill lives in
-[`plugins/nateherk-design/skills/scroll-craft/`](plugins/nateherk-design/skills/scroll-craft/).
+[`plugins/scroll-craft/skills/scroll-craft/`](plugins/scroll-craft/skills/scroll-craft/).
 Keep that folder intact, including its references, scripts, templates, and engine.
 
 - **Codex:** copy the complete `scroll-craft` folder into your project's
@@ -110,7 +110,7 @@ Keep that folder intact, including its references, scripts, templates, and engin
   and ask it to read and follow the skill directly:
 
 ```text
-Read plugins/nateherk-design/skills/scroll-craft/SKILL.md and use it to build
+Read plugins/scroll-craft/skills/scroll-craft/SKILL.md and use it to build
 my website. Follow the referenced design and verification workflow.
 ```
 
@@ -122,16 +122,16 @@ The ten-site rebuild documented here was built with Codex.
 ### Claude Code plugin
 
 ```bash
-/plugin marketplace add nateherkai/scroll-craft
+/plugin marketplace add scroll-craft
 ```
 ```bash
-/plugin install nateherk-design
+/plugin install scroll-craft
 ```
 
 Then use it by describing what you want, or invoke it directly:
 
 ```
-/nateherk-design:scroll-craft
+/scroll-craft:scroll-craft
 ```
 
 If the install summary says `Run /reload-plugins to activate.`, run that.
@@ -139,7 +139,7 @@ If the install summary says `Run /reload-plugins to activate.`, run that.
 To hack on the skill without installing:
 
 ```bash
-claude --plugin-dir ./plugins/nateherk-design
+claude --plugin-dir ./plugins/scroll-craft
 ```
 
 ## First run
@@ -147,8 +147,8 @@ claude --plugin-dir ./plugins/nateherk-design
 From this repository's root, run:
 
 ```bash
-node plugins/nateherk-design/skills/scroll-craft/scripts/doctor.mjs
-node plugins/nateherk-design/skills/scroll-craft/scripts/workspace.mjs --ensure
+node plugins/scroll-craft/skills/scroll-craft/scripts/doctor.mjs
+node plugins/scroll-craft/skills/scroll-craft/scripts/workspace.mjs --ensure
 ```
 
 If you installed the skill elsewhere, use that folder's `scripts/` path instead.
@@ -179,7 +179,7 @@ Builds land in `<workspace>/builds/<name>/`; your registry is `<workspace>/FINGE
 ## What is in here
 
 ```
-plugins/nateherk-design/
+plugins/scroll-craft/
 └── skills/scroll-craft/
     ├── SKILL.md            the procedure: brief, grammar, score, build, verify
     ├── references/
@@ -199,7 +199,7 @@ plugins/nateherk-design/
     └── scripts/            doctor · workspace · kie · encode · serve · shoot · worldflight-assert
 ```
 
-[`CHANGELOG.md`](plugins/nateherk-design/skills/scroll-craft/CHANGELOG.md) is worth reading on its own: it records what broke on each build and the rule that came out of it, rather than a feature list.
+[`CHANGELOG.md`](plugins/scroll-craft/skills/scroll-craft/CHANGELOG.md) is worth reading on its own: it records what broke on each build and the rule that came out of it, rather than a feature list.
 
 ## The one rule that matters most
 

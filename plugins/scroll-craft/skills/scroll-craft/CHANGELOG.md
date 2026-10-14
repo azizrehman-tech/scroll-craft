@@ -50,7 +50,7 @@ behavior or existing video-decoder fixes are changed in this release.
 The repo, the skill and the invocation now share one spelling. The skill was
 `scrollcraft` (no dash) while the repo was `scroll-craft`, so the two never
 matched. The skill directory, its frontmatter `name`, and the invocation are
-now `scroll-craft`: invoke it as `/nateherk-design:scroll-craft`.
+now `scroll-craft`: invoke it as `/scroll-craft:scroll-craft`.
 
 The engine is deliberately left as `scrollcraft`. The files `scrollcraft.js`
 and `scrollcraft.css`, the `.scrollcraft.json` workspace config, the
